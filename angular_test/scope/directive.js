@@ -4,6 +4,7 @@ app.directive('myDirective', function () {
         restrict: 'AE',
         replace: true,
         template: '<h1>myDirective</h1>',
+        scope:{},
 
         compile: function () {
           return function ($scope, $element, $attrs) {
