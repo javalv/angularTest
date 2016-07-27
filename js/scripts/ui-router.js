@@ -18,11 +18,8 @@ define(["app"],
                     .state('home', {
                         //abstract: true,
                         url: '/home',
-                        views: {
-                            'main@': {
-                                templateUrl: './view/home.html'
-                            }
-                        }
+                        templateUrl: './view/home.html'
+
                     })
             })
     })
